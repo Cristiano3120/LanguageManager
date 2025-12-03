@@ -19,6 +19,8 @@
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 
 		<NeutralLanguage>en</NeutralLanguage>
+
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	</PropertyGroup>
 
 	<ItemGroup>

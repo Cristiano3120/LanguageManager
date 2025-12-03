@@ -22,8 +22,6 @@ namespace Cacx.LanguageManager.Wpf;
 /// <param name="key">The resource key used to identify the localized value to bind.</param>
 public class LocalizationExtension(string key) : MarkupExtension
 {
-    public string Key { get; init; } = key;
-
     /// <summary>
     /// Returns an object that provides the localized value for the specified key in XAML markup.
     /// <para>
@@ -38,7 +36,7 @@ public class LocalizationExtension(string key) : MarkupExtension
     /// use in XAML bindings.</returns>
     public override object ProvideValue(IServiceProvider serviceProvider)
     {
-        Binding binding = new($"[{Key}]")
+        Binding binding = new($"[{key}]")
         {
             Source = new LocalizationBindingSource(),
         };
