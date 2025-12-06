@@ -14,7 +14,9 @@
 		<Product>LanguageManager</Product>
 		<PackageProjectUrl>https://github.com/Cristiano3120/LanguageManager</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/Cristiano3120/LanguageManager</RepositoryUrl>
-		
+
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+
 		<Description>A lightweight localization system for .NET and WPF.</Description>
 
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
@@ -25,6 +27,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<None Include="..\README.md" Pack="true" PackagePath="\" />
 		<None Include="License.txt" Pack="true" PackagePath="" />
 	</ItemGroup>
 	

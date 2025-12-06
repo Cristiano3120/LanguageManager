@@ -3,6 +3,7 @@
     <Project Path="LanguageManagerSample/Cacx.LanguageManager.SampleOne.csproj" Id="b8cdb642-2f17-4c7b-957b-069603cd8427" />
   </Folder>
   <Folder Name="/src/">
+    <File Path="Cacx.LanguageManager/ReadMe.md" />
     <Project Path="Cacx.LanguageManager.Abstractions/Cacx.LanguageManager.Abstractions.csproj" />
     <Project Path="Cacx.LanguageManager.Core/Cacx.LanguageManager.Core.csproj" />
     <Project Path="Cacx.LanguageManager.Wpf/Cacx.LanguageManager.Wpf.csproj" />

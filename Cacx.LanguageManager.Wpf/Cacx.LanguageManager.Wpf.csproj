@@ -16,6 +16,8 @@
 		<PackageProjectUrl>https://github.com/Cristiano3120/LanguageManager</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/Cristiano3120/LanguageManager</RepositoryUrl>
 
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+
 		<Description>A lightweight localization system for .NET and WPF.</Description>
 
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
@@ -26,8 +28,9 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\Cacx.LanguageManager.Abstractions\Cacx.LanguageManager.Abstractions.csproj" />
-	  <ProjectReference Include="..\Cacx.LanguageManager.Core\Cacx.LanguageManager.Core.csproj" />
+		<ProjectReference Include="..\Cacx.LanguageManager.Abstractions\Cacx.LanguageManager.Abstractions.csproj" />
+		<ProjectReference Include="..\Cacx.LanguageManager.Core\Cacx.LanguageManager.Core.csproj" />
+		<None Include="..\README.md" Pack="true" PackagePath="\" />
 		<None Include="License.txt" Pack="true" PackagePath="" />
 	</ItemGroup>
 
