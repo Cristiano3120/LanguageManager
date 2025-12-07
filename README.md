@@ -19,7 +19,9 @@ public App()
     AppHost = Host.CreateDefaultBuilder().ConfigureServices((context, services) =>
     {
       _ = services.AddSingleton<ILocalizationService, LocalizationService>();
-    }
+    }.Build();
+
+    _ = AppHost.Services.GetRequiredService<ILocalizationService>(); //This call is needed! Just disregard the service
 }
 ```
 ### Step 1
